@@ -3,7 +3,7 @@ name: Build IPKs
 on:
   repository_dispatch:
   workflow_dispatch:
-    inputs:
+    inputs:luci-app-ap-modem
       applications:
         description: 'build applications, eg: "luci-app-store luci-app-ddnsto". "all" means build all'
         required: true
